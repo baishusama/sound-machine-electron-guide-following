@@ -11,8 +11,10 @@ let mainWindow;// = null;
 
 function createWindow() {
     mainWindow = new BrowserWindow({
+        width: 800,
         height: 600,
-        width: 800
+        resizable: false,
+        frame: false
     });
 
     mainWindow.loadURL('file://' + __dirname + '/app/index.html');
