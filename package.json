@@ -1,0 +1,24 @@
+{
+  "name": "sound_machine",
+  "version": "0.1.0",
+  "description": "![Sound Machine](https://rawgithub.com/bojzi/sound-machine/master/sketch/sound-machine.png)",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bojzi/sound-machine-electron-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bojzi/sound-machine-electron-guide/issues"
+  },
+  "homepage": "https://github.com/bojzi/sound-machine-electron-guide#readme"
+}
